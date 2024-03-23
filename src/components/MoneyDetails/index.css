@@ -1,0 +1,61 @@
+.money-manager {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.your-balance-container {
+  display: flex;
+
+  align-items: center;
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.your-income-container {
+  display: flex;
+
+  align-items: center;
+  border: 1px solid #0b69ff;
+  background-color: #cffafe;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.your-expenses-container {
+  display: flex;
+
+  align-items: center;
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.balance {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.your-balance {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.image {
+  height: 100px;
+  width: 100px;
+}

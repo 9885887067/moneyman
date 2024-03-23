@@ -1,0 +1,130 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+
+  margin-top: 60px;
+  min-height: 100vh;
+}
+.responsive-container {
+  width: 80%;
+  max-width: 550px;
+}
+.header-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 170px;
+}
+.richard {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+}
+.manager-desc {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+.span {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #0b69ff;
+}
+.transaction-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 424px;
+  width: 100%;
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+}
+.form-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.input {
+  width: 100%;
+  border: 1px solid #7e858e;
+  color: #1e293b;
+  min-width: 150px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+}
+.label {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.history-transaction {
+  width: 100%;
+  min-height: 326px;
+  border: 1px solid #7e858e;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 12px;
+  margin-top: 20px;
+}
+
+.transcation-table-container {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.transction-table {
+  padding-left: 0;
+  margin: 0px;
+  border: 1px solid #7e858e;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  border: 1px solid #7e858e;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cell{
+  color:#334155;
+  font-size: 12px;
+  width:30%;
+  border-right: none;
+
+}
